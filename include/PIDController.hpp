@@ -1,3 +1,9 @@
+/*@ 
+/@file PIDController.hpp
+/@author Ryan Bates, Pruthvikumar Sanghavi
+/@brief This class controls the mobile robot with PID Values 
+/@copyright 2019 Ryan Bates, Pruthvikumar Sanghavi
+*/
 #ifndef PIDCONTROLLER_
 #define PIDCONTROLLER_
 
