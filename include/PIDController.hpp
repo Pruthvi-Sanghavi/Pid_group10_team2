@@ -4,14 +4,14 @@
  *@brief This class controls the mobile robot with PID Values
  *@copyright 2019 Aruna Baijal, Ethan Quist
 */
-#ifndef PIDCONTROLLER_
-#define PIDCONTROLLER_
+#ifndef INCLUDE_PIDCONTROLLER_HPP_
+#define INCLUDE_PIDCONTROLLER_HPP_
 
 class PIDController {
-   private:
+ private:
   double kp, ki, kd, presentError, cummulativeError, lastError;
 
-  public:
+ public:
   /*@
    *@param Computes the new speed
    *@return returns the new velocity
@@ -26,8 +26,9 @@ class PIDController {
    *@param startCumulativeError CumulativeError Value to initialize to
    *@param startLastError LastError Value to initialize to
    */
-	PIDController(double startKP, double startKI, double startKD, double startPresentError, double startCummulativeError, double startLastError);
-
+  PIDController(double startKP, double startKI, double startKD,
+                double startPresentError, double startCummulativeError,
+                double startLastError);
 };
 
-#endif // PIDCONTROLLER_
+#endif  // INCLUDE_PIDCONTROLLER_HPP_

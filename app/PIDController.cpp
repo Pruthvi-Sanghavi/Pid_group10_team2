@@ -7,14 +7,17 @@
 
 #include <PIDController.hpp>
 
-PIDController::PIDController(double startKP, double startKI, double startKD, double startPresentError, double startCummulativeError, double startLastError):
-  kp{startKP},
-  kd{startKD},
-  ki{startKI},
-  presentError{startPresentError},
-  cummulativeError{startCummulativeError},
-  lastError{startLastError}
-
+PIDController::PIDController(double startKP, double startKI, double startKD,
+                             double startPresentError,
+                             double startCummulativeError,
+                             double startLastError)
+    :
+  kp { startKP },
+      kd { startKD },
+      ki { startKI },
+      presentError { startPresentError },
+      cummulativeError { startCummulativeError },
+      lastError { startLastError }
 
 {
   kp = startKP;
@@ -23,14 +26,15 @@ PIDController::PIDController(double startKP, double startKI, double startKD, dou
   presentError = startPresentError;
   cummulativeError = startCummulativeError;
   lastError = startLastError;
-
 }
 
-double PIDController::compute(double targetSetpoint, double actualVelocity){
-  double error = targetSetpoint - actualVelocity;
-  double cummError = PIDController::cummulativeError + error;
-  double changeInError = error - PIDController::lastError;
+double PIDController::compute(double targetSetpoint, double actualVelocity) {
+  double error = targetSetpoint - actualVelocity;  // calculate error
+  double cummError = PIDController::cummulativeError + error;  // calculate
+  // cumulative error
+  double changeInError = error - PIDController::lastError;  // calculate
+                                                            // change in error
 
   return PIDController::kp * error + PIDController::ki * cummError
-      + PIDController::kd * changeInError;
+      + PIDController::kd * changeInError;  // calculate output
 }
