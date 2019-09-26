@@ -1,6 +1,6 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/Pruthvi-Sanghavi/Pid_group10_team2.svg?branch=master)](https://travis-ci.org/Pruthvi-Sanghavi/Pid_group10_team2)
-[![Coverage Status](https://coveralls.io/repos/github/Pruthvi-Sanghavi/Pid_group10_team2/badge.svg?branch=master)](https://coveralls.io/github/Pruthvi-Sanghavi/Pid_group10_team2?branch=master)
+[![Build Status](https://travis-ci.org/arunabaijal/Pid_group10_team2.svg?branch=master)](https://travis-ci.org/arunabaijal/Pid_group10_team2)
+[![Coverage Status](https://coveralls.io/repos/github/arunabaijal/Pid_group10_team2/badge.svg?branch=master)](https://coveralls.io/github/arunabaijal/Pid_group10_team2?branch=master)
 ---
 
 ## Overview
