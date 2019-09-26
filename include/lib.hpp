@@ -1,8 +1,12 @@
+/** Copyright [2019] <Aruna Baijal>
+ *@file lib.hpp
+ * @brief hpp for main.cpp.
+ * @author Aruna Baijal, Ethan Quist
+ *
+ * Calculate the PID Controller output.
+ */
 #pragma once
 
-#include<iostream>
+#include <iostream>
+#include <PIDController.hpp>
 
-void dummy()
-{
-    std::cout << "HI" << std::endl;
-}
