@@ -1,12 +1,12 @@
 ## Basic running guide
 
-##mkdir build
-##cd build
-##cmake ..
-##make
-##make test
-##cd test
-##Run program: ./	cpp-test
+mkdir build
+cd build
+cmake ..
+make
+make test
+cd test
+Run program: ./	cpp-test
 
 ## Overview 
 
