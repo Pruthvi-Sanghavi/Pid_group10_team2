@@ -1,5 +1,5 @@
 ## Basic running guide
-
+'''
 mkdir build
 cd build
 cmake ..
@@ -7,7 +7,7 @@ make
 make test
 cd test
 Run program: ./	cpp-test
-
+'''
 ## Overview 
 
 The project contains a PID control which uses compute function. Travis and Coveralls are used for code coverage.
