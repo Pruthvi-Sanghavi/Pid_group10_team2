@@ -1,4 +1,5 @@
-## Basic runnig guide
+## Basic running guide
+
 mkdir build
 cd build
 cmake ..
@@ -9,7 +10,7 @@ Run program: ./	cpp-test
 
 ## Overview 
 
-The project contains a PID control which uses compute function. 
+The project contains a PID control which uses compute function. Travis and Coveralls are used for code coverage.
 
 ## Notes
 
