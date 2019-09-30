@@ -40,9 +40,9 @@ Run program: ./app/shell-app
 
 ## Authors and Roles
 Part 1
-Ryan Bates                 Navigator
+Ryan Bates                 Navigator|
 Pruthvikumar Sanghavi      Driver
 
 Part 2
-Aruna Baijal			         Driver
+Aruna Baijal			         Driver|
 Ethan Quist				         Navigator
