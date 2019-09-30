@@ -4,6 +4,7 @@ add_executable(
     cpp-test
     main.cpp
     PIDControllerTest.cpp
+    test.cpp
     ../app/PIDController.cpp
 )
 
