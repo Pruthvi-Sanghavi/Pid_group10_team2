@@ -1,8 +1,8 @@
-/*@ 
-/@file PIDControllerTest.cpp
-/@author Ryan Bates, Pruthvikumar Sanghavi
-/@brief This is the test class
-/@copyright 2019 Ryan Bates, Pruthvikumar Sanghavi
+/*@
+ *@file test.cpp
+ *@author Aruna Baijal, Ethan Quist
+ *@brief This is the test class
+ *@copyright 2019 Aruna Baijal, Ethan Quist
 */
 #include <gtest/gtest.h>
 #include <PIDController.hpp>
